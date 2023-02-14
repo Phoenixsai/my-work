@@ -11,7 +11,42 @@
     box-sizing: border-box;
 }
 
-/* Typography */
 html {
     font-size: 62.5%;
+}
+body{
+    background-color: var(--Light-gray);
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.qr-container{
+    align-items: center;
+    background-color: var(--White);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'outfit';
+    height: 500px;
+    margin:9rem  auto;
+    padding: 1.6rem;
+    text-align: center;
+    width: 320px;
+}
+.qr-container .text{
+    margin: 3rem 2rem;
+}
+.qr-container .header{
+    margin: 0;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+.qr-container .body{
+    color: var(--Grayish-blue);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
 }
